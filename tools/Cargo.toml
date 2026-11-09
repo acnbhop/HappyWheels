@@ -1,0 +1,6 @@
+[workspace]
+members = ["hwdecomp"]
+resolver = "3"
+
+[profile.release]
+debug = "line-tables-only"
